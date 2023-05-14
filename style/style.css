@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+@font-face{
+    font-family: 'BigNoodleTitling';
+    src: url(./fonts/big_noodle_titling.ttf);
+}
+.sec1-back{
+    background-image: url(./img/Head\ Backr.svg);
+    height: 753px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mainconteiner{
+    width: 1180px;
+    margin: auto;
+}
+.div-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo-cont{
+
+}
+.nav-cont{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 27px;
+    padding: 18px;
+}
+.ul-li{
+    font-family: 'BigNoodleTitling';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF; 
+}
+.sec2-back{
+    background-color:rgba(24, 24, 24, 1);
+    background-size: cover;
+    
+    
+}
+.sec2-flex{
+    display: flex;
+    align-items: center;
+    
+}
+.h1-div{
+    border-left:3px solid rgba(224, 0, 0, 1);
+    border-top:3px solid rgba(224, 0, 0, 1);
+    height: 94px;
+    margin-top: 61px;
+    padding-top: 30px;
+}
+.sec-h1{
+    font-family: 'BigNoodleTitling';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 55px;
+    color: #FFFFFF;
+    padding-left: 35px;
+    padding-top: 31px;
+}
+.sec2-h2{
+    font-family: 'BigNoodleTitling';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    color: #E00000;
+}
+.sec2-p{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-top: 25px;
+
+}
+.btn-cont{
+    display: flex;
+    margin-top: 30px;
+}
+.scbtn{
+    width: 103px;
+    height: 34px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: 'BigNoodleTitling';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #E00000;
+    justify-content: center;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+.prbtn{
+    Width:103px;
+    Height:34px;
+    background: #E00000;
+    border: 1px solid #E00000;
+    border-radius: 1px;
+    font-family: 'BigNoodleTitling';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+.div{
+    padding-left: 39px;
+    padding-top: 25px;
+}
+.col-5{
+    width: 50%;
+}
+.div-img{
+    padding-top: 115px;
+    padding-left: 80px;
+    width: 50%;
+}
+.div-h1{
+    
+    background-color:rgba(24, 24, 24, 1);
+    position: absolute;
+    width: 200px;
+    top: -30px;
+    
+}
+.sec3-h1{
+    font-family: 'BigNoodleTitling';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 55px;
+    text-align: center;
+    color: #FFFFFF;
+   
+}
+.hr{
+    font-family: 'BigNoodleTitling';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #E00000;
+    padding-left: 14px;
+    
+}
+.exp{
+    Width: 100%;
+    Height:320px;
+    border: 3px solid rgba(224, 0, 0, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 61px;
+}
+.games-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 40px;
+
+}
+.exp-p{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 19px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 68px;
+}
+.colgames{
+    width: 100%;
+}
+.pwrbtn{
+    width: 102px;
+    height: 34px;
+    background: #E00000;
+    border: 1px solid #E00000;
+    border-radius: 1px;
+    font-family: 'BigNoodleTitling';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.pwnbtncont{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.sec3divflex{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.sec3h2{
+    font-family: 'BigNoodleTitling';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 71px;
+    padding-top: 46px;
+    text-align: center;
+    color: #FFFFFF;
+}
+sec3-col25{
+    width: 25%;
+}
