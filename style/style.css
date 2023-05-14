@@ -29,12 +29,14 @@
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
     border-radius: 5px;
+    align-items: center;
 }
 .ul{
     display: flex;
     list-style: none;
     gap: 27px;
     padding: 18px;
+    align-items: center;
 }
 .ul-li{
     font-family: 'BigNoodleTitling';
@@ -152,6 +154,7 @@
     position: absolute;
     width: 200px;
     top: -30px;
+    text-align: center;
     
 }
 .sec3-h1{
@@ -162,6 +165,7 @@
     line-height: 55px;
     text-align: center;
     color: #FFFFFF;
+    text-align: center;
    
 }
 .hr{
@@ -171,7 +175,7 @@
     font-size: 18px;
     line-height: 20px;
     color: #E00000;
-    padding-left: 14px;
+    text-align: center;
     
 }
 .exp{
@@ -202,7 +206,7 @@
     padding-top: 68px;
 }
 .colgames{
-    width: 100%;
+    width: 25%;
 }
 .pwrbtn{
     width: 102px;
