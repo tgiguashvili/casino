@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="icon" href="./style/img/Logo.svg">
     <title>M8trix</title>
 </head>
 <body class="sec2-back">
@@ -17,7 +16,7 @@
                 </div>
                 <div class="nav-cont">
                     <ul class="ul">
-                       <a href="https://www.amusnet.com/all-games/?cat-slots#" target="_blank"> <li class="ul-li">GAMING</li></a>
+                        <li class="ul-li">GAMING</li>
                         <li class="ul-li">DINING</li>
                         <li class="ul-li">EVENTS</li>
                         <li class="ul-li">ABOUT</li>
@@ -102,22 +101,6 @@
                 </div>
             </div>
         </div>
-        </div>
-        <div class="D-3">
-            <div class="d3-div">
-                <h1 class="sec-h1">DISCOVER Casino M8TRIX</h1>
-                <h3 class="d3-h2">TAKE A WALK AROUND AND EXPERIENCE IT YOURSELF</h3>
-                <p class="exp-p">We have prepared a 3D tour of the whole casino. You can see for yourself what an evening and Casino M8trix might look like, check out our restaurants and card games tables.</p>
-                <div class="d-3btn">
-                    
-                    <button class="btn-3d">3D TOUR</button>
-                </div>
-            </div>
-        </div>
-        <div class="imgs">
-            <img src="./style/img/Rectangle 35 (1).png" alt="">
-            <img src="./style/img/Rectangle 31 (1).png" alt="">
-            <img src="./style/img/Rectangle 34.png" alt="">
         </div>
     </div>
    </section>

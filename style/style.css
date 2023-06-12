@@ -1,15 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-
+    
 }
 @font-face{
     font-family: 'BigNoodleTitling';
     src: url(./fonts/big_noodle_titling.ttf);
 }
 .sec1-back{
-    background-image: url(./img/Head\ Backr.svg);
-    height: 753px;
+    background-image: url(./img/Head\ Banner\ \(1\).png);
+    height: 553px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -42,7 +42,7 @@
     font-family: 'BigNoodleTitling';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 15px;
     letter-spacing: 0.04em;
     color: #FFFFFF; 
@@ -73,7 +73,7 @@
     line-height: 55px;
     color: #FFFFFF;
     padding-left: 35px;
-    padding-top: 31px;
+    
 }
 .sec2-h2{
     font-family: 'BigNoodleTitling';
@@ -105,7 +105,7 @@
     font-family: 'BigNoodleTitling';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 15px;
     display: flex;
     align-items: center;
@@ -125,7 +125,7 @@
     font-family: 'BigNoodleTitling';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 15px;
     display: flex;
     align-items: center;
@@ -138,7 +138,7 @@
 
 .div{
     padding-left: 39px;
-    padding-top: 25px;
+    
 }
 .col-5{
     width: 50%;
@@ -217,7 +217,7 @@
     font-family: 'BigNoodleTitling';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 15px;
     display: flex;
     align-items: center;
@@ -236,6 +236,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-top: 100px;
 }
 .sec3h2{
     font-family: 'BigNoodleTitling';
@@ -249,4 +250,87 @@
 }
 sec3-col25{
     width: 25%;
+}
+
+.D-3{
+    background-image: url(./img/sec4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 430px;
+    margin-top: 100px;
+    padding-top: 0.5px;
+    
+
+}
+
+.d3-div{
+    border-left:3px solid rgba(224, 0, 0, 1);
+    border-top:3px solid rgba(224, 0, 0, 1);
+    height: 94px;
+    
+    padding-top: 30px;
+    margin-left: 40px;
+}
+
+.d3-h2{
+    font-family: 'BigNoodleTitling';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    color: #E00000;
+    margin-left: 40px;
+    margin-top: 35px;
+    
+}
+.d-3btn{
+    display: flex;
+    justify-content: end;
+    margin-top: 130px;
+    margin-right: 70px;
+}
+.btn-3d{
+    width: 130px;
+    height: 34px;
+    background: #E00000;
+    border: 1px solid #E00000;
+    border-radius: 1px;
+    font-family: 'BigNoodleTitling';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+
+}
+
+.imgs{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+.imgs :nth-child(1){
+    position: absolute;
+    left: -49px;
+    width: 30%;
+}
+
+.imgs :nth-child(2){
+    width: 78%;
+
+
+}
+.imgs :nth-child(3){
+    position: absolute;
+    right: 2px;
+    width: 30%;
 }
